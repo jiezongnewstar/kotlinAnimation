@@ -2,6 +2,7 @@ package com.xibei.kotlinanimation.view
 
 import android.animation.ObjectAnimator
 import android.content.Context
+import android.content.res.TypedArray
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Rect
@@ -10,6 +11,7 @@ import android.text.TextUtils
 import android.text.TextWatcher
 import android.util.AttributeSet
 import android.widget.EditText
+import com.xibei.kotlinanimation.R
 import com.xibei.kotlinanimation.util.Util.Companion.dp2px
 
 class MDEditText(context: Context,attributeSet: AttributeSet) : EditText(context,attributeSet) {
@@ -32,7 +34,13 @@ class MDEditText(context: Context,attributeSet: AttributeSet) : EditText(context
 
     private var animatorLength = dp2px(16f)
 
+    private var typedArray:TypedArray = context.obtainStyledAttributes(attributeSet,R.styleable.MDEditText)
+
     init {
+
+        isFloat = typedArray.getBoolean(R.styleable.MDEditText_isFloat,true)
+
+        typedArray.recycle()
 
         paint.textSize = TEXT_SIZE.toFloat()
         paint.isAntiAlias = true

@@ -2,7 +2,7 @@
 <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
@@ -15,6 +15,7 @@
 
             <com.xibei.kotlinanimation.view.MDEditText
                     android:id="@+id/et_md"
+                    app:isFloat="false"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="请输入姓名"/>
