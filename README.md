@@ -5,7 +5,7 @@ kotlin view animation
 
 <br>
 <br>
-<br>
+
 
 <a href = "https://github.com/jiezongnewstar/kotlinAnimation/blob/master/app/src/main/java/com/xibei/kotlinanimation/view/HistogramView.kt">
     这里是柱状图代码
@@ -13,9 +13,13 @@ kotlin view animation
 
 <br>
 <br>
-<br>
+
 <a href = "https://github.com/jiezongnewstar/kotlinAnimation/blob/master/app/src/main/java/com/xibei/kotlinanimation/view/MDEditText.kt">
     这里是md风格Edittext 代码
 </a>
+
+<br>
+<br>
+
 
 <a href= "https://github.com/jiezongnewstar/AndroidAnimationView">先看这里吧，优先更新这里的基础部分</>
