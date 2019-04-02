@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        android:layout_height="wrap_content">
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:orientation="vertical"
                   android:gravity="center_horizontal">
-    <Button
-            android:padding="10dp"
-            android:layout_margin="3dp"
-            android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="图形位置测量及Xfermode的使用"/>
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@android:color/holo_orange_light">
+
+            <com.xibei.kotlinanimation.view.MDEditText
+                    android:id="@+id/et_md"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入姓名"/>
 
 
+        </FrameLayout>
 
 
     </LinearLayout>
-
 
 
 </ScrollView>

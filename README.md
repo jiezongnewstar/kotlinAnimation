@@ -9,6 +9,6 @@ kotlin view animation
     这里是柱状图代码
 </a>
 
-<br>
+<br>z
 
 <a href= "https://github.com/jiezongnewstar/AndroidAnimationView">先看这里吧，优先更新这里的基础部分</>
